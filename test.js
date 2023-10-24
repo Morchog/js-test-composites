@@ -113,7 +113,7 @@ function colorGradient(num) {
 
 function abreviateNum() {
     let x = Number(arguments[0]);
-    if (x >= 1000)
+    if (x >= 1000 && x < 1_000_000)
         return `${(x / 1000).toFixed(1)}k`
     if (x >= 1_000_000)
         return `${(x / 1_000_000).toFixed(1)}m`
