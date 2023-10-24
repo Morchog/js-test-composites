@@ -1,7 +1,7 @@
 
 let minNumber, maxNumber = 0;
 
-window.onload = function () {
+(function () {
     document.documentElement.innerHTML = `
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <title>Matrix Heatmap</title>
@@ -38,7 +38,7 @@ window.onload = function () {
         </span>
     </div>
     </div>`;
-};
+})();
 
 function aggregateArrays() {
     let [grid, table] = [
