@@ -4,6 +4,7 @@ let minNumber, maxNumber = 0;
 (function () {
     document.documentElement.innerHTML = `
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="matrix.js"></script>
     <title>Matrix Heatmap</title>
     <h1 id="tit" class="text-center">Matrix Heatmap</h1>
     <div class="d-flex flex-row justify-content-center mt-4">
@@ -35,7 +36,7 @@ let minNumber, maxNumber = 0;
         The resulting matrix should have the option to be sorted in the following way:
         </br>- Highest to lowest numbers are displayed in a \"reverse-waterfall\" fashion.
         </br><img src="https://Morchog.github.io/js-test-composites/example.png" style="width: 200px">
-        </br></br><b>Resulting numbers a numeric scale of 1.</b>
+        </br></br><b>Numbers in result have a numeric scale of 1!</b>
         </span>
     </div>
     </div>`;
