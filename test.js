@@ -2,9 +2,7 @@
 let minNumber, maxNumber = 0;
 
 (function () {
-    document.documentElement.innerHTML = `
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="matrix.js"></script>
+    document.body.innerHTML = `
     <title>Matrix Heatmap</title>
     <h1 id="tit" class="text-center">Matrix Heatmap</h1>
     <div class="d-flex flex-row justify-content-center mt-4">
