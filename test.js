@@ -35,6 +35,7 @@ let minNumber, maxNumber = 0;
         The resulting matrix should have the option to be sorted in the following way:
         </br>- Highest to lowest numbers are displayed in a \"reverse-waterfall\" fashion.
         </br><img src="https://Morchog.github.io/js-test-composites/example.png" style="width: 200px">
+        </br></br><b>Resulting numbers a numeric scale of 1.</b>
         </span>
     </div>
     </div>`;
